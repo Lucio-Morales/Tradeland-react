@@ -50,7 +50,7 @@ const AdsSection: React.FC = () => {
               className="w-full h-[390px] object-cover"
             />
             {/* Efecto de degradado al fondo */}
-            <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white to-transparent" />
+            <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent" />
           </div>
         ))}
       </div>
