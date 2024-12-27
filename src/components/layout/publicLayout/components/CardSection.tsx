@@ -34,7 +34,7 @@ const CardSection: React.FC = () => {
 
   return (
     <div className="absolute top-[300px] left-1/2 transform -translate-x-1/2 z-20">
-      <div className="flex space-x-4 justify-center">
+      <div className="flex space-x-4 justify-center ">
         {cards.map((card) => (
           <div
             key={card.id}

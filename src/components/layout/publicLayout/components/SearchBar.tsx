@@ -10,8 +10,8 @@ const SearchBar: React.FC = () => {
       <div className="flex w-full max-w-xl rounded-md overflow-hidden">
         <input
           type="text"
-          placeholder="Buscar productos..."
-          className="w-full px-2 py-2 border border-gray-300 focus:outline-none focus:ring-0 rounded-l-md"
+          placeholder="Buscar productos, marcas y mas..."
+          className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-0 rounded-l-md"
         />
 
         <div

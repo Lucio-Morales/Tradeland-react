@@ -31,7 +31,7 @@ const AdsSection: React.FC = () => {
 
   return (
     <div
-      className="relative max-w-7xl mx-auto mt-0 overflow-hidden"
+      className="relative w-full mx-auto mt-0 overflow-hidden"
       onMouseEnter={() => setHovering(true)}
       onMouseLeave={() => setHovering(false)}
     >
@@ -50,7 +50,7 @@ const AdsSection: React.FC = () => {
               className="w-full h-[390px] object-cover"
             />
             {/* Efecto de degradado al fondo */}
-            <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent" />
+            <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-slate-200 to-transparent" />
           </div>
         ))}
       </div>
